@@ -167,7 +167,6 @@ h1 {
     text-align: left;
     line-height: 25px;
     font-size: 0.65rem;
-    font-weight: ;
   }
 
   .container {
@@ -181,6 +180,7 @@ h1 {
   .sub-container {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
+    margin-top: 53px;
   }
 
   .second-sub-container {
@@ -231,7 +231,7 @@ h1 {
   }
 
   .profile {
-    margin-top: 50px;
+    margin-top: 47px;
   }
 
   .profile-1 {
