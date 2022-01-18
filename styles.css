@@ -189,7 +189,7 @@ h1 {
     grid-column-end: 4;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-rows: repeat(3, 90px);
     grid-column-start: 5;
     grid-column-end: 10;
   }
@@ -199,10 +199,15 @@ h1 {
   }
 
   .rated {
-    margin: 10px 0;
+    margin: 2px 0;
     flex-direction: row;
     justify-content: flex-start;
     width: 500px;
+    height: 70px;
+  }
+
+  .rated p {
+    margin-top: 0px;
   }
 
   .rated-1 {
@@ -231,7 +236,7 @@ h1 {
   }
 
   .profile {
-    margin-top: 47px;
+    margin-top: 43px;
   }
 
   .profile-1 {
